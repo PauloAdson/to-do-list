@@ -13,7 +13,7 @@ body {
     background-color: whitesmoke;
 }
 
-p {
+h1 {
     display: flex;
     justify-content: center;
     font-size: xx-large;
@@ -109,21 +109,20 @@ li {
     text-decoration: line-through;
 }
 
-@media (max-width: 775px) {
-    input {
-        width: 70%;
-    }
+footer {
+    height: 64px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
 
-    .divInsert button {
-        width: 30%;
-    }
-
-    i {
-        font-size: 30px;
-        padding: 0px;
-    }
-
-    p {
-        font-size: x-large;
-    }
+footer p, a{
+    color: #3b3b3b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+footer a:hover {
+    opacity: 0.7;
 }
