@@ -1,0 +1,27 @@
+@media (max-width: 999px) {
+    body {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    .to-do {
+        width: 100%;
+    }
+
+    .divInsert button {
+        width: 20%;
+    }
+
+    i {
+        font-size: 30px;
+        padding: 0px;
+    }
+
+    p {
+        font-size: x-large;
+    }
+}
